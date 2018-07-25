@@ -1,12 +1,11 @@
-# The hacking Pinterest
+# The Hacking Pinterest
 
-Tu veux faire de la concurrence à Pinterest, donc tu voudrais créer un un site où les utilisateurs peuvent créer des "pins".<br/>
-Chaque pin contient une URL d'une image sur le net. <br/>
-Les utilisateurs peuvent commenter les pins, mais ne peuvent pas commenter les commentaires.<br/>
+Making a pseudo-clone of pinterest where people can "pin" things.
+Each pin has an URL of a image on the web.
+Every user can comment the pins and the comments
 
-## Mode d'emploi
+## to install
 
-Dans votre console, lancez les instructions suivantes :<br/>
 `bundle install`<br/>
 `rails db:migrate`<br/>
 `rails db:seed`
